@@ -1,0 +1,62 @@
+.rich-text-content {
+  overflow-wrap: anywhere;
+  white-space: pre-line;
+}
+
+.rich-text-content p,
+.rich-text-content blockquote,
+.rich-text-content pre,
+.rich-text-content ul,
+.rich-text-content ol {
+  margin: 0.5rem 0;
+}
+
+.rich-text-content > :first-child {
+  margin-top: 0;
+}
+
+.rich-text-content > :last-child {
+  margin-bottom: 0;
+}
+
+.rich-text-content ul,
+.rich-text-content ol {
+  padding-left: 1.5rem;
+}
+
+.rich-text-content ul {
+  list-style: disc;
+}
+
+.rich-text-content ol {
+  list-style: decimal;
+}
+
+.rich-text-content li {
+  display: list-item;
+  margin: 0.25rem 0;
+}
+
+.rich-text-content li[data-list='bullet'] {
+  list-style-type: disc;
+}
+
+.rich-text-content li[data-list='ordered'] {
+  list-style-type: decimal;
+}
+
+.rich-text-content .ql-ui {
+  display: none;
+}
+
+.rich-text-content a {
+  color: #b91c1c;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.rich-text-content blockquote {
+  border-left: 3px solid #cbd5e1;
+  color: #475569;
+  padding-left: 1rem;
+}

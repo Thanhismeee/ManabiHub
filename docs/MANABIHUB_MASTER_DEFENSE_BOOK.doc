@@ -1,0 +1,595 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word"
+      xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<title>MANABIHUB (LJPM) - DEFENSE MASTERCLASS BOOK</title>
+<!--[if gte mso 9]>
+<xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>100</w:Zoom>
+  <w:DoNotOptimizeForBrowser/>
+ </w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+  @page Section1 {
+    size: 21.0cm 29.7cm;
+    margin: 2.0cm 2.0cm 2.0cm 2.0cm;
+    mso-header-margin: 1.0cm;
+    mso-footer-margin: 1.0cm;
+    mso-paper-source: 0;
+  }
+  div.Section1 {
+    page: Section1;
+  }
+  body {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    font-size: 11.0pt;
+    line-height: 1.5;
+    color: #1f2937;
+    background-color: #ffffff;
+  }
+  h1 {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    font-size: 22.0pt;
+    font-weight: bold;
+    color: #1e3a8a;
+    border-bottom: 2.5pt solid #3b82f6;
+    padding-bottom: 6px;
+    margin-top: 24.0pt;
+    margin-bottom: 12.0pt;
+    page-break-after: avoid;
+  }
+  h2 {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    font-size: 15.0pt;
+    font-weight: bold;
+    color: #1e40af;
+    border-left: 4.5pt solid #2563eb;
+    padding-left: 8px;
+    margin-top: 18.0pt;
+    margin-bottom: 8.0pt;
+    page-break-after: avoid;
+  }
+  h3 {
+    font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+    font-size: 12.5pt;
+    font-weight: bold;
+    color: #1e293b;
+    margin-top: 14.0pt;
+    margin-bottom: 6.0pt;
+    page-break-after: avoid;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 7.0pt;
+    text-align: justify;
+  }
+  .banner-cover {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 24px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 20.0pt;
+  }
+  .banner-cover h1 {
+    color: #ffffff;
+    border-bottom: none;
+    font-size: 24.0pt;
+    margin: 0 0 6.0pt 0;
+  }
+  .banner-cover p {
+    color: #e0e7ff;
+    font-size: 11.5pt;
+    text-align: center;
+    margin: 0;
+  }
+  .callout-box {
+    background-color: #f0fdf4;
+    border-left: 3.5pt solid #16a34a;
+    padding: 10px 14px;
+    margin: 10.0pt 0;
+    font-size: 10.5pt;
+  }
+  .callout-warning {
+    background-color: #fffbeb;
+    border-left: 3.5pt solid #f59e0b;
+    padding: 10px 14px;
+    margin: 10.0pt 0;
+    font-size: 10.5pt;
+  }
+  .callout-info {
+    background-color: #eff6ff;
+    border-left: 3.5pt solid #3b82f6;
+    padding: 10px 14px;
+    margin: 10.0pt 0;
+    font-size: 10.5pt;
+  }
+  table.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12.0pt 0;
+    font-size: 10.0pt;
+  }
+  table.custom-table th {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    padding: 7px 9px;
+    border: 1.0pt solid #94a3b8;
+  }
+  table.custom-table td {
+    padding: 7px 9px;
+    border: 1.0pt solid #cbd5e1;
+    vertical-align: top;
+  }
+  table.custom-table tr:nth-child(even) td {
+    background-color: #f8fafc;
+  }
+  code {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9.5pt;
+    background-color: #f1f5f9;
+    color: #be123c;
+    padding: 1px 3px;
+  }
+  pre {
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 9.0pt;
+    background-color: #0f172a;
+    color: #f8fafc;
+    padding: 10px;
+    border-radius: 4px;
+    line-height: 1.3;
+  }
+  .badge-red { color: #b91c1c; font-weight: bold; }
+  .badge-blue { color: #1d4ed8; font-weight: bold; }
+  .badge-green { color: #15803d; font-weight: bold; }
+  .page-break {
+    page-break-before: always;
+  }
+</style>
+</head>
+<body>
+<div class="Section1">
+
+<div class="banner-cover">
+  <h1>MANABIHUB (LJPM)</h1>
+  <p><strong>THE DEFINITIVE PROJECT MASTERCLASS & DEFENSE BLUEPRINT</strong></p>
+  <p style="margin-top: 6px; font-size: 10.0pt;">Japanese Learning Journey & Platform Management — Sách Hướng Dẫn Toàn Diện Về Kiến Trúc, Kinh Tế, Vận Hành & Kịch Bản Bảo Vệ Đồ Án Xuất Sắc</p>
+</div>
+
+<h2>MỤC LỤC TỔNG QUAN (TABLE OF CONTENTS)</h2>
+<table class="custom-table">
+  <tr><th style="width: 15%;">Phần</th><th style="width: 50%;">Tiêu đề</th><th style="width: 35%;">Nội dung trọng tâm</th></tr>
+  <tr><td><strong>LỜI TỰA</strong></td><td>Tầm nhìn, Sứ mệnh & Định vị Dự án</td><td>Dual-Sided EdTech Marketplace & Ecosystem chuyên sâu tiếng Nhật</td></tr>
+  <tr><td><strong>CHƯƠNG 1</strong></td><td>Bức tranh Thị trường, Nỗi đau 3 Chiều & Stakeholder Matrix</td><td>Pain points của Học viên, Giáo viên, Nền tảng & Ma trận RACI 5 Actors</td></tr>
+  <tr><td><strong>CHƯƠNG 2</strong></td><td>Mô hình Kinh tế, Dòng tiền & Chi phí Vận hành (Unit Economics)</td><td>Phí hoa hồng 20%, Escrow 14 ngày, Bóc tách OpEx (AWS, VNPay, VNPT, eSMS, OpenAI)</td></tr>
+  <tr><td><strong>CHƯƠNG 3</strong></td><td>Quản trị Dự án Agile/Scrum & Kỹ nghệ Phần mềm</td><td>Quy trình Jira 5 Sprints (MHB-01 -> MHB-77), Gitflow, CI/CD GitHub Actions</td></tr>
+  <tr><td><strong>CHƯƠNG 4</strong></td><td>Kiến trúc Tổng thể & Công nghệ (Tech Stack)</td><td>Modular Monolith Clean Architecture, Java 21, Spring Boot 3, React 18, PostgreSQL</td></tr>
+  <tr><td><strong>CHƯƠNG 5</strong></td><td>Tích hợp Đối tác Thứ ba (Third-Party Integrations)</td><td>AWS (Beanstalk, RDS, Amplify), VNPay SHA-512, VNPT eKYC, eSMS, OpenAI, VietQR</td></tr>
+  <tr><td><strong>CHƯƠNG 6</strong></td><td>7 Động cơ Kỹ thuật Cốt lõi (The 7 Deep-Dive Engines)</td><td>eKYC Fingerprint, Modular Blocks, AI Scoped, Escrow Job, Payout AES-256, Review, Audit</td></tr>
+  <tr><td><strong>CHƯƠNG 7</strong></td><td>Ma trận Quản trị Rủi ro & An toàn Hệ thống</td><td>8 rủi ro trọng yếu và giải pháp kỹ thuật phòng vệ triệt để</td></tr>
+  <tr><td><strong>CHƯƠNG 8</strong></td><td>Kịch bản Thuyết trình 15 Phút & Bộ Câu hỏi Phản biện</td><td>Narrative Arc 5 hồi, Lời thoại mẫu từng phút, 10 câu hỏi hóc búa từ Hội đồng</td></tr>
+</table>
+
+<div class="page-break"></div>
+
+<h1>LỜI TỰA: TẦM NHÌN, SỨ MỆNH & ĐỊNH VỊ DỰ ÁN</h1>
+<p><strong>ManabiHub (Japanese Learning Journey & Platform Management - LJPM)</strong> là nền tảng thương mại điện tử giáo dục hai chiều (Dual-Sided EdTech Marketplace) chuyên sâu cho ngôn ngữ Nhật Bản. Hệ thống được sinh ra để giải quyết sự đứt gãy lớn nhất của thị trường học trực tuyến hiện nay: <strong>Khủng hoảng niềm tin về chất lượng giáo viên</strong> và <strong>sự cô độc, thiếu tương tác thực tế của người học ngoại ngữ</strong>.</p>
+
+<div class="callout-info">
+  <strong>3 TRỤ CỘT BẢO CHỨNG CỦA MANABIHUB:</strong>
+  <ul>
+    <li><strong>Trụ cột Niềm tin (Trust Engine):</strong> 100% Giảng viên bắt buộc định danh sinh trắc học CCCD qua <strong>VNPT eKYC</strong> và đối soát văn bằng <strong>JLPT</strong> chuẩn quốc gia.</li>
+    <li><strong>Trụ cột Tài chính (Financial Engine):</strong> Bảo vệ quyền lợi người học bằng cơ chế <strong>Ký quỹ Escrow 14 ngày</strong> và sổ cái kế toán kép (Double-Entry Ledger).</li>
+    <li><strong>Trụ cột Sư phạm (Pedagogical Engine):</strong> Kết hợp học tập phân nhánh (Modular Blocks: Video anti-cheat, Flashcard SRS, Quiz) với <strong>Trợ lý AI đóng khung ngữ cảnh</strong> theo mô hình <em>Human-in-the-loop</em>.</li>
+  </ul>
+</div>
+
+---
+
+<h1>CHƯƠNG 1: BỨC TRANH THỊ TRƯỜNG & STAKEHOLDER MATRIX</h1>
+
+<h2>1.1. Nỗi đau 3 Chiều của Thị trường (The Pain Point Triad)</h2>
+<table class="custom-table">
+  <tr><th style="width: 25%;">Đối tượng</th><th style="width: 35%;">Nỗi đau thực tế (Market Pain Points)</th><th style="width: 40%;">Giải pháp Đột phá của ManabiHub</th></tr>
+  <tr>
+    <td><strong>Học viên (Student)</strong></td>
+    <td>
+      • Khủng hoảng "Thầy ảo", bằng JLPT giả mạo Photoshop.<br>
+      • Mua khóa học xong bị bỏ rơi, không có ai chữa bài viết Kanji/Kaiwa.<br>
+      • Khóa học kém chất lượng nhưng không thể đòi lại tiền.
+    </td>
+    <td>
+      • Xem Profile Giáo viên đã được eKYC CCCD & xác thực chứng chỉ JLPT thật.<br>
+      • Hệ thống nộp bài viết tiếng Nhật có AI gợi ý tức thì và Giáo viên chấm chính thức.<br>
+      • Chính sách hoàn tiền minh bạch trong 7 ngày được bảo vệ bởi Escrow.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Giáo viên (Teacher)</strong></td>
+    <td>
+      • Bị đánh đồng với các cá nhân tự phong thiếu chuyên môn.<br>
+      • Video bài giảng bị quay lén, tuồn lậu tràn lan trên mạng xã hội.<br>
+      • Quá tải khi phải chấm thủ công hàng trăm bài viết mỗi tuần.<br>
+      • Bị các trung tâm trung gian giam tiền dạy hoặc cắt xén hoa hồng.
+    </td>
+    <td>
+      • Huy hiệu Verified Teacher có bảo chứng pháp lý.<br>
+      • Hệ thống bài học đa dạng (Flashcard, Quiz, Writing) giảm thiểu phụ thuộc video thô.<br>
+      • AI tự động phân tích ngữ pháp/từ vựng sơ bộ, giáo viên chỉ cần duyệt và chấm.<br>
+      • Ví doanh thu cá nhân minh bạch, rút tiền bảo mật OTP tự động sinh VietQR.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Nền tảng & Quản trị (Platform)</strong></td>
+    <td>
+      • Người dùng tạo hàng loạt nick rác để trục lợi hoặc phá hoại.<br>
+      • Tranh chấp dòng tiền khi học viên đòi refund nhưng giáo viên đã rút sạch tiền.<br>
+      • Rủi ro pháp lý về vi phạm bản quyền và rò rỉ dữ liệu cá nhân.
+    </td>
+    <td>
+      • HMAC-SHA256 Fingerprint khóa 1 CCCD chỉ gắn với 1 tài khoản duy nhất.<br>
+      • Escrow giam tiền 14 ngày, chỉ giải ngân khi không có dispute/refund.<br>
+      • Mã hóa AES-256 GCM toàn bộ STK ngân hàng; Audit Trail bất biến mọi can thiệp.
+    </td>
+  </tr>
+</table>
+
+<h2>1.2. Ma trận Phân quyền & Trách nhiệm (RACI Matrix)</h2>
+<table class="custom-table">
+  <tr><th>Tác nhân (Actor)</th><th>Trách nhiệm chính (Domain Responsibility)</th><th>Ranh giới Bảo mật (Security Boundary)</th></tr>
+  <tr><td><strong>Student</strong></td><td>Khám phá khóa học, mua qua VNPay, học theo Modular Blocks, hỏi đáp AI Scoped, thi Final Test nhận Chứng chỉ số, viết Review đã xác thực.</td><td>Role <code>STUDENT</code>. Kiểm tra <code>ACTIVE</code> enrollment trên từng bài học.</td></tr>
+  <tr><td><strong>Teacher</strong></td><td>eKYC CCCD & JLPT, soạn giáo trình tương tác (Course Builder), cấu hình Final Test, chấm bài viết Writing, quản lý Ví & Rút tiền OTP.</td><td>Role <code>TEACHER</code>. Kiểm tra <code>TeacherEligibilityFilter</code> (chỉ giáo viên đã KYC mới được tạo khóa).</td></tr>
+  <tr><td><strong>Course Manager</strong></td><td>Duyệt ngoại lệ KYC (hồ sơ rủi ro/nghi vấn), thẩm định chất lượng khóa học trước khi Publish, xử lý báo cáo vi phạm (Violation Reports).</td><td>Role <code>ADMIN_COURSE</code>. Kiểm soát toàn diện Module Content & Moderation.</td></tr>
+  <tr><td><strong>Finance Manager</strong></td><td>Giám sát luồng Ký quỹ Escrow, phê duyệt Payout rút tiền, xử lý yêu cầu Hoàn tiền (Refunds), đối soát dòng tiền cổng VNPay.</td><td>Role <code>ADMIN_FINANCE</code>. Toàn quyền trên Module Escrow, Ledger, Payout & Refund.</td></tr>
+  <tr><td><strong>System Admin</strong></td><td>Quản trị vòng đời tài khoản nội bộ (Admin Lifecycle), cấu hình 14 tham số hệ thống thời gian thực (System Settings), xem Audit Trail bất biến.</td><td>Role <code>ADMIN_SYSTEM</code>. Bảo vệ Super Admin cuối cùng, chống tự nâng quyền.</td></tr>
+</table>
+
+<div class="page-break"></div>
+
+<h1>CHƯƠNG 2: MÔ HÌNH KINH TẾ, DÒNG TIỀN & CHI PHÍ VẬN HÀNH</h1>
+
+<h2>2.1. Mô hình Doanh thu & Phân bổ Ký quỹ (Revenue Share & Escrow Allocation)</h2>
+<p>ManabiHub áp dụng mô hình <strong>Take-Rate Commission 20%</strong> cho nền tảng và <strong>80% Doanh thu</strong> chi trả cho Giảng viên. Dòng tiền được vận hành nghiêm ngặt qua 4 bước:</p>
+<ol>
+  <li><strong>Khởi tạo Đơn hàng (Order Creation):</strong> Học viên chọn mua khóa học -&gt; Hệ thống chốt số tiền cần thanh toán -&gt; Sinh mã giao dịch VNPay duy nhất.</li>
+  <li><strong>Thanh toán Thành công qua VNPay (Payment Confirmation):</strong> Máy chủ VNPay gửi Server-to-Server Webhook (Signed IPN với SHA-512) -&gt; Backend kiểm tra Idempotency -&gt; Kích hoạt <code>ACTIVE</code> Enrollment -&gt; Tách 20% vào quỹ Platform -&gt; Ghi 80% vào bảng <code>escrow_ledgers</code> ở trạng thái <code>PENDING_CLEARING</code>.</li>
+  <li><strong>Kỳ hạn Ký quỹ 14 Ngày (14-Day Escrow Holding Period):</strong> Khoản tiền 80% này bị khóa trong 14 ngày. Đây là tấm khiên bảo vệ học viên trước các trường hợp khóa học kém chất lượng hoặc vi phạm bản quyền.</li>
+  <li><strong>Giải ngân Tự động (Escrow Clearing Job):</strong> Sau 14 ngày, Scheduled Job quét các bản ghi hợp lệ -&gt; Khóa Pessimistic Lock -&gt; Chuyển tiền sang <code>wallet_ledgers</code> của Giáo viên thành <code>AVAILABLE_BALANCE</code>.</li>
+</ol>
+
+<h2>2.2. Bóc tách Chi phí Vận hành Hàng tháng (Operational Expenses - OpEx)</h2>
+<table class="custom-table">
+  <tr><th>Hạng mục Hạ tầng / Dịch vụ</th><th>Quy mô / Gói sử dụng</th><th>Chi phí ước tính / Tháng</th><th>Ghi chú tối ưu hóa</th></tr>
+  <tr><td><strong>AWS Elastic Beanstalk (API Runtime)</strong></td><td>1x t3.medium (hoặc 2x t4g.small Auto-scaling)</td><td>$15 - $25 (~380k - 630k VNĐ)</td><td>Chạy Spring Boot 3 Java 21 tối ưu RAM, CPU load &lt; 20%</td></tr>
+  <tr><td><strong>AWS RDS PostgreSQL (Database)</strong></td><td>db.t4g.micro Multi-AZ / 20GB SSD gp3</td><td>$18 - $30 (~450k - 760k VNĐ)</td><td>Bật SSL require, Automated Backup 7 ngày</td></tr>
+  <tr><td><strong>AWS Amplify & CloudFront (Frontend Hosting)</strong></td><td>Edge Hosting + Global CDN + HTTPS</td><td>$3 - $7 (~75k - 180k VNĐ)</td><td>Cache static assets tại edge, giảm tải server</td></tr>
+  <tr><td><strong>Cổng thanh toán VNPay</strong></td><td>Giao dịch Thẻ nội địa / QR / Thẻ quốc tế</td><td>1.1% - 1.5% trên mỗi giao dịch</td><td>Khấu trừ trực tiếp trên dòng tiền thanh toán</td></tr>
+  <tr><td><strong>VNPT eKYC (Xác thực CCCD)</strong></td><td>OCR thẻ CCCD + Biometric Face Match</td><td>~2,500 VNĐ / lượt xác thực thành công</td><td>Chỉ gọi khi giáo viên đăng ký; có cache fingerprint</td></tr>
+  <tr><td><strong>eSMS Brandname (SMS OTP)</strong></td><td>Brandname "ManabiHub" CSKH Type 2</td><td>~500 VNĐ / tin nhắn OTP</td><td>OTP có hạn 5 phút, giới hạn 3 lần gửi/ngày chống spam</td></tr>
+  <tr><td><strong>OpenAI / LLM API Provider</strong></td><td>GPT-4o-mini / OpenAI-compatible endpoint</td><td>$5 - $15 (~120k - 380k VNĐ)</td><td>Chỉ mở cho khóa có giá &gt;= <code>AI_SUPPORT_PRICE_FLOOR</code>; rate limit 50 câu/ngày</td></tr>
+  <tr><td colspan="2"><strong>TỔNG CHI PHÍ VẬN HÀNH CỐ ĐỊNH BAN ĐẦU</strong></td><td><strong>~$50 - $90 / Tháng (~1.2tr - 2.2tr VNĐ)</strong></td><td><strong>Cực kỳ tinh gọn, đạt điểm hòa vốn chỉ với 10-15 khóa học bán ra/tháng!</strong></td></tr>
+</table>
+
+<div class="page-break"></div>
+
+<h1>CHƯƠNG 3: QUẢN TRỊ DỰ ÁN AGILE/SCRUM & KỸ NGHỆ PHẦN MỀM</h1>
+
+<h2>3.1. Vòng đời Phát triển Phần mềm & Quản trị Jira</h2>
+<p>Dự án được quản lý theo chuẩn khung làm việc <strong>Agile/Scrum</strong> với 5 Iterations (Sprints) rõ ràng, theo dõi chặt chẽ qua hệ thống Jira Software với hơn 77 User Stories & Epics (mã hóa <code>MHB-01</code> đến <code>MHB-77</code>):</p>
+<ul>
+  <li><strong>Iteration 1:</strong> Thiết lập Khung hạ tầng (Monorepo, Spring Boot Skeleton, React Vite, Docker PostgreSQL, Flyway Baseline, CI Pipeline).</li>
+  <li><strong>Iteration 2:</strong> Quản lý Định danh & Khóa học (Google OAuth, VNPT eKYC, Course Builder, Modular Lesson Blocks).</li>
+  <li><strong>Iteration 3:</strong> Trải nghiệm Học tập & Tích hợp Sư phạm AI (Video Watch Tracker, SRS Flashcards, Quiz, Writing Submission, Scoped AI Assistant).</li>
+  <li><strong>Iteration 4:</strong> Động cơ Tài chính & Ký quỹ (VNPay Payment, 14-day Escrow Job, Payout Settlement, Verified Reviews).</li>
+  <li><strong>Iteration 5:</strong> Quản trị Nâng cao, An ninh & Tối ưu Bảo vệ (System Settings, Moderation Reports, Payout AES-256 Encryption, VietQR Auto Payout, Defense Preparation).</li>
+</ul>
+
+<h2>3.2. Tiêu chuẩn Kỹ nghệ Mã nguồn (Engineering & Git Conventions)</h2>
+<ul>
+  <li><strong>Quy ước Đặt tên Nhánh (Branch Naming):</strong> Mọi nhánh tính năng bắt buộc phải gắn mã Jira Issue: <code>feature/MHB-&lt;number&gt;-&lt;short-description&gt;</code>.</li>
+  <li><strong>Git Hygiene Hook (Pre-commit Gate):</strong> Script <code>install-git-hooks.ps1</code> kích hoạt pre-commit hook chặn tuyệt đối việc commit các file rác (<code>target/</code>, <code>dist/</code>, <code>node_modules/</code>) và file bí mật (<code>.env</code>, <code>application-secrets.yml</code>).</li>
+  <li><strong>Continuous Integration Pipeline (GitHub Actions):</strong> Khi tạo Pull Request vào <code>develop</code>, CI kích hoạt 3 Job chạy song song:
+    <ol>
+      <li><strong>Repository Hygiene:</strong> Quét các file nhạy cảm và vi phạm cấu trúc.</li>
+      <li><strong>Backend Test Suite:</strong> Biên dịch và chạy toàn bộ unit/integration test trên môi trường Java 21.</li>
+      <li><strong>Frontend Build Suite:</strong> Chạy <code>npm ci &amp;&amp; npm run build</code> trên Node.js 20 đảm bảo 0 lỗi TypeScript.</li>
+    </ol>
+  </li>
+</ul>
+
+---
+
+<h1>CHƯƠNG 4: KIẾN TRÚC TỔNG THỂ & CÔNG NGHỆ (TECH STACK)</h1>
+
+<h2>4.1. Triết lý Kiến trúc Modular Monolith</h2>
+<p>Hệ thống không chạy theo trào lưu Microservices phân tán quá đà khi chưa cần thiết. Thay vào đó, ManabiHub được thiết kế theo mô hình <strong>Modular Monolith chuẩn mực</strong>:</p>
+<ul>
+  <li><strong>Tính toàn vẹn giao dịch tài chính (ACID Consistency):</strong> Giao dịch mua khóa học và ghi sổ cái Escrow diễn ra trong cùng một Database Transaction, triệt tiêu nguy cơ bất đồng bộ dữ liệu.</li>
+  <li><strong>Độc lập về mặt Module (High Cohesion, Loose Coupling):</strong> Các package nghiệp vụ (<code>kyc</code>, <code>course</code>, <code>learning</code>, <code>payment</code>, <code>wallet</code>, <code>ai</code>, <code>moderation</code>) có Entity, DTO, Repository, Service độc lập, giao tiếp qua Interface rõ ràng.</li>
+  <li><strong>Tối ưu Chi phí & Độ trễ:</strong> Loại bỏ hoàn toàn Network Overhead giữa các microservice, dễ dàng debug và triển khai một gói duy nhất lên AWS Elastic Beanstalk.</li>
+</ul>
+
+<h2>4.2. Ma trận Công nghệ Chi tiết</h2>
+<table class="custom-table">
+  <tr><th>Lớp (Tier)</th><th>Công nghệ Sử dụng</th><th>Tính năng & Điểm nổi bật</th></tr>
+  <tr><td><strong>Backend Framework</strong></td><td>Java 21 LTS + Spring Boot 3.x</td><td>Tận dụng Virtual Threads, Type-Safe, Spring Data JPA, MapStruct, Lombok.</td></tr>
+  <tr><td><strong>Bảo mật Backend</strong></td><td>Spring Security + Stateless JWT + Custom Role Filters</td><td><code>TeacherEligibilityFilter</code> & <code>InternalAdminRoleFilter</code> re-check trực tiếp quyền từ Database theo thời gian thực (Zero-Trust Session).</td></tr>
+  <tr><td><strong>Cơ sở dữ liệu</strong></td><td>PostgreSQL 16 + Flyway Migrations</td><td>77 bản migrations kiểm soát versioning chặt chẽ, <code>ddl-auto=validate</code> tuyệt đối không để Hibernate tự tạo schema trên Production.</td></tr>
+  <tr><td><strong>Frontend Core</strong></td><td>React 18 + TypeScript + Vite</td><td>Tốc độ HMR cực nhanh, Strict Type checking, Dynamic Route Splitting theo vai trò.</td></tr>
+  <tr><td><strong>UI & Design System</strong></td><td>TailwindCSS + Material UI (MUI)</td><td>Hệ thống Component chuyên nghiệp, Responsive 100% trên Mobile/Tablet/Desktop.</td></tr>
+  <tr><td><strong>State Management</strong></td><td>TanStack Query (React Query)</td><td>Quản lý Server State, tự động Caching, Background Refetching, Deduplication.</td></tr>
+  <tr><td><strong>Form & Validation</strong></td><td>React Hook Form + Zod</td><td>Validation 2 lớp đồng nhất giữa Client và Server schema.</td></tr>
+</table>
+
+<div class="page-break"></div>
+
+<h1>CHƯƠNG 5: TÍCH HỢP ĐỐI TÁC THỨ BA (THIRD-PARTY INTEGRATIONS)</h1>
+
+<table class="custom-table">
+  <tr><th style="width: 20%;">Đối tác / Dịch vụ</th><th style="width: 40%;">Phương thức Kỹ thuật & Giao thức</th><th style="width: 40%;">Biện pháp Bảo mật & An toàn</th></tr>
+  <tr>
+    <td><strong>AWS Cloud Infrastructure</strong></td>
+    <td>
+      • <strong>Elastic Beanstalk:</strong> Containerized Java 21 API.<br>
+      • <strong>RDS PostgreSQL:</strong> Managed Relational DB.<br>
+      • <strong>Amplify:</strong> Frontend Single Page Application.<br>
+      • <strong>CloudFront & S3:</strong> Asset Storage & CDN.
+    </td>
+    <td>
+      • Kết nối Database bắt buộc <code>sslmode=require</code>.<br>
+      • Environment variables bảo mật qua AWS Parameter Store.<br>
+      • Tách biệt hoàn toàn VPC Database nội bộ với Internet.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Cổng thanh toán VNPay</strong></td>
+    <td>
+      • <strong>Signed IPN Webhook:</strong> Nhận kết quả thanh toán qua <code>/api/v1/payments/vnpay/ipn</code>.<br>
+      • <strong>Return URL Polling:</strong> Điều hướng người dùng an toàn.
+    </td>
+    <td>
+      • Kiểm tra chữ ký số <strong>HMAC-SHA512</strong> với <code>VNPAY_HASH_SECRET</code>.<br>
+      • <strong>Idempotency Check:</strong> Ràng buộc <code>UNIQUE(transaction_id)</code> chống cộng tiền lặp lại.<br>
+      • Không tin tưởng dữ liệu Client gửi lên từ trình duyệt.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>VNPT eKYC (Định danh CCCD)</strong></td>
+    <td>
+      • <strong>Web SDK 3.2.1:</strong> Chụp ảnh CCCD 2 mặt & quét khuôn mặt Liveness detection.<br>
+      • <strong>Challenge Code:</strong> Chống video Deepfake giả mạo.
+    </td>
+    <td>
+      • <strong>HMAC-SHA256 Fingerprint:</strong> Băm số CCCD với <code>KYC_IDENTITY_SECRET</code>.<br>
+      • Bảng <code>account_kyc_claims</code> khóa cứng 1 CCCD chỉ gắn với 1 tài khoản.<br>
+      • Chống Replay Transaction ID.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>eSMS Brandname (Viễn thông)</strong></td>
+    <td>
+      • Gửi tin nhắn SMS OTP 6 số xác thực số điện thoại.<br>
+      • API giao tiếp Server-to-Server chuẩn RESTful JSON.
+    </td>
+    <td>
+      • Hạn mức 5 phút cho mỗi mã OTP.<br>
+      • Mã hóa một chiều mã OTP trong cơ sở dữ liệu.<br>
+      • Rate limit theo số điện thoại chống tấn công vét cạn và spam cước.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>OpenAI / LLM API</strong></td>
+    <td>
+      • <strong>Lesson AI Chat:</strong> Hỏi đáp bài học đóng khung ngữ cảnh.<br>
+      • <strong>Writing Assistant:</strong> Trả về JSON Schema chuẩn gợi ý lỗi ngữ pháp/Kanji.
+    </td>
+    <td>
+      • Rate limit 10 câu/phút và 50 câu/ngày.<br>
+      • Ngưỡng giá khóa học <code>AI_SUPPORT_PRICE_FLOOR</code> bảo vệ chi phí.<br>
+      • Nhật ký <code>ai_usage_logs</code> khử trùng tuyệt đối (Sanitized, không lưu secret/prompt).
+    </td>
+  </tr>
+  <tr>
+    <td><strong>VietQR / NAPAS 247</strong></td>
+    <td>
+      • Tự động kết xuất chuỗi mã QR chuẩn VietQR khi Finance Manager duyệt Payout.
+    </td>
+    <td>
+      • Điền sẵn Mã Ngân hàng, Số tài khoản, Tên thụ hưởng và Số tiền chính xác, triệt tiêu 100% rủi ro chuyển khoản nhầm.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Google Cloud Platform</strong></td>
+    <td>
+      • Google OAuth 2.0 Single Sign-On cho Học viên và Giáo viên.
+    </td>
+    <td>
+      • Trao đổi Authorization Code lấy Access Token an toàn tại Backend, xác minh email từ Google token.
+    </td>
+  </tr>
+</table>
+
+<div class="page-break"></div>
+
+<h1>CHƯƠNG 6: 7 ĐỘNG CƠ KỸ THUẬT CỐT LÕI (THE 7 ENGINES)</h1>
+
+<h2>Engine 1: Định danh Giáo viên eKYC & Chống Clone Tài khoản</h2>
+<p>Khác với các hệ thống mở cho phép ai cũng đăng ký làm giáo viên, ManabiHub triển khai cơ chế <strong>Định danh 2 lớp</strong>:</p>
+<ol>
+  <li><strong>Sinh trắc học CCCD:</strong> Tích hợp VNPT eKYC Web SDK để nhận diện khuôn mặt sống (Liveness check) và trích xuất OCR căn cước công dân.</li>
+  <li><strong>Băm bảo mật HMAC-SHA256:</strong> Số CCCD được kết hợp với khóa bí mật <code>KYC_IDENTITY_SECRET</code> để tạo ra chuỗi băm cố định. Bảng <code>teacher_identity_claims</code> đặt khóa <code>UNIQUE(identity_fingerprint)</code>, ngăn chặn tuyệt đối trường hợp 1 kẻ gian dùng 1 CCCD tạo nhiều tài khoản.</li>
+  <li><strong>Đối soát Chứng chỉ JLPT:</strong> Hệ thống tự động truy vấn kho dữ liệu chứng chỉ tiếng Nhật. Nếu khớp 100%, hệ thống <strong>Auto-Approve</strong>; nếu có sai lệch nhỏ, hồ sơ chuyển sang hàng đợi của Course Manager để xử lý ngoại lệ.</li>
+</ol>
+
+<h2>Engine 2: Động cơ Học tập Modular Block-based & Chống Gian lận Video</h2>
+<p>Một bài học tại ManabiHub là sự kết hợp linh hoạt của 4 loại Block tương tác:</p>
+<ul>
+  <li><code>VIDEO_BLOCK</code>: Bài giảng đa phương tiện có hệ thống <strong>Video Watch Tracker</strong> (<code>track_video_watch_time</code>). Học viên bắt buộc phải tích lũy &gt;= 80% thời lượng xem thực tế mới được mở khóa bài tiếp theo, ngăn chặn việc tua video để farm chứng chỉ.</li>
+  <li><code>FLASHCARD_BLOCK</code>: Luyện từ vựng theo thuật toán <strong>Spaced Repetition System (SRS)</strong> giúp tối ưu hóa trí nhớ dài hạn.</li>
+  <li><code>QUIZ_BLOCK</code>: Bộ câu hỏi trắc nghiệm kiểm tra độ hiểu bài ngay tại chỗ.</li>
+  <li><code>WRITING_BLOCK</code>: Đề bài luyện viết câu và đoạn văn tiếng Nhật.</li>
+  <li><code>FINAL_TEST</code>: Kỳ thi tốt nghiệp tổng hợp có giám sát thời gian và hủy bài thi nếu phát hiện gian lận (<code>final_test_violation_termination</code>). Khi vượt qua, chứng chỉ số được cấp với mã xác thực QR công khai.</li>
+</ul>
+
+<h2>Engine 3: Sư phạm AI Khép kín & Human-in-the-Loop Writing Review</h2>
+<p>ManabiHub xây dựng mô hình AI hỗ trợ sư phạm nghiêm ngặt:</p>
+<ul>
+  <li><strong>AI là Trợ lý, không phải Giám khảo:</strong> Khi học viên nộp bài viết tiếng Nhật, AI phân tích lỗi ngữ pháp và trả về gợi ý dạng JSON có cấu trúc. Tuy nhiên, <strong>Giáo viên con người (Human-in-the-loop)</strong> mới là người xem lại bản gợi ý, chỉnh sửa và chốt điểm số chính thức.</li>
+  <li><strong>Context-Grounded Chatbot:</strong> Khi học viên bấm "Hỏi AI", hệ thống chỉ đóng khung kiến thức trong đúng bài học đó, cấm tuyệt đối việc giải hộ bài tập hoặc làm lộ đáp án Quiz.</li>
+</ul>
+
+<h2>Engine 4: Động cơ Ký quỹ Escrow 14 Ngày & Sổ cái Bất biến</h2>
+<ul>
+  <li>Tiền mua khóa học của học viên được lưu trong bảng <code>escrow_ledgers</code> ở trạng thái <code>PENDING_CLEARING</code> trong 14 ngày.</li>
+  <li>Scheduled Job <code>EscrowClearingJob</code> quét định kỳ với cơ chế <strong>Pessimistic Lock (<code>SELECT FOR UPDATE</code>)</strong>, kiểm tra 4 điều kiện an toàn (Hết hạn 14 ngày, Không có Dispute, Không có Refund, Tài khoản không bị Freeze) trước khi chuyển tiền sang ví giáo viên.</li>
+</ul>
+
+<h2>Engine 5: Bảo mật Rút tiền Payout, Mã hóa AES-256 GCM & VietQR</h2>
+<ul>
+  <li>Yêu cầu rút tiền bắt buộc xác thực <strong>Mã OTP 6 số</strong> gửi qua email.</li>
+  <li>Thông tin số tài khoản ngân hàng của giáo viên được <strong>mã hóa đối xứng AES-256 GCM</strong> với khóa <code>PAYOUT_SECURITY_SECRET</code>, bảo vệ dữ liệu tuyệt đối trước nguy cơ rò rỉ database.</li>
+  <li>Khi duyệt chi, hệ thống tự động sinh mã <strong>VietQR chuẩn NAPAS 247</strong> giúp Finance Manager thanh toán trong 3 giây mà không cần gõ tay số tài khoản.</li>
+</ul>
+
+<h2>Engine 6: Đánh giá Đã Xác thực (Verified Course Reviews)</h2>
+<ul>
+  <li>Chỉ học viên đã mua khóa học và học tối thiểu &gt;= 20% thời lượng mới được quyền đánh giá (<code>V041</code>).</li>
+  <li>Mỗi học viên chỉ có duy nhất 1 bản ghi review (<code>UNIQUE</code>), có quyền cập nhật và giáo viên có quyền phản hồi công khai (<code>V064</code>).</li>
+</ul>
+
+<h2>Engine 7: Quản trị Hệ thống Động & Audit Trail Bất biến</h2>
+<ul>
+  <li>14 tham số hệ thống sống còn (ngày Escrow, ngưỡng giá AI, rate limit...) được cấu hình thời gian thực qua giao diện System Admin mà không cần build hay restart server.</li>
+  <li>Mọi hành động nhạy cảm đều được ghi nhận vào bảng <code>audit_logs</code> bất biến với đầy đủ Before/After snapshot và lý do can thiệp.</li>
+  <li>Bảo vệ Super Admin cuối cùng và chống tự nâng quyền (Self-role protection).</li>
+</ul>
+
+<div class="page-break"></div>
+
+<h1>CHƯƠNG 7: MA TRẬN QUẢN TRỊ RỦI RO & BẢO MẬT</h1>
+
+<table class="custom-table">
+  <tr><th>Mã Rủi ro</th><th>Tên Rủi ro & Tình huống</th><th>Mức độ</th><th>Biện pháp Kỹ thuật Phòng vệ Triệt để</th></tr>
+  <tr><td><strong>RSK-01</strong></td><td><strong>Gian lận CCCD / Clone nhiều tài khoản</strong></td><td><span class="badge-red">CRITICAL</span></td><td>HMAC-SHA256 Fingerprint trên số CCCD với khóa bí mật; bảng <code>teacher_identity_claims</code> khóa cứng 1 CCCD = 1 Account.</td></tr>
+  <tr><td><strong>RSK-02</strong></td><td><strong>Giáo viên rút sạch tiền rồi xóa nội dung</strong></td><td><span class="badge-red">CRITICAL</span></td><td>Cơ chế Escrow giam tiền 14 ngày; tiền chỉ về Available Balance khi khóa học đã vận hành ổn định và không có khiếu nại.</td></tr>
+  <tr><td><strong>RSK-03</strong></td><td><strong>Race Condition khi gửi 2 lệnh rút tiền cùng lúc</strong></td><td><span class="badge-red">CRITICAL</span></td><td>Pessimistic Lock (<code>SELECT FOR UPDATE</code>) trên bản ghi Wallet + Check Constraint <code>available_balance &gt;= 0</code> ở mức Database.</td></tr>
+  <tr><td><strong>RSK-04</strong></td><td><strong>Giả mạo Webhook thanh toán VNPay</strong></td><td><span class="badge-red">CRITICAL</span></td><td>Kiểm tra chữ ký số bí mật HMAC SHA-512 từ Server VNPay; ràng buộc <code>UNIQUE(transaction_id)</code> chống replay giao dịch.</td></tr>
+  <tr><td><strong>RSK-05</strong></td><td><strong>Tấn công chiếm quyền Admin bằng Token cũ</strong></td><td><span class="badge-blue">HIGH</span></td><td><code>InternalAdminRoleFilter</code> truy vấn trực tiếp trạng thái và vai trò trong Database trên từng request (Zero-Trust Session).</td></tr>
+  <tr><td><strong>RSK-06</strong></td><td><strong>Bào mòn chi phí do spam API OpenAI</strong></td><td><span class="badge-blue">HIGH</span></td><td>Rate limit 2 tầng (10 câu/phút, 50 câu/ngày) + Ngưỡng giá sàn <code>AI_SUPPORT_PRICE_FLOOR</code>.</td></tr>
+  <tr><td><strong>RSK-07</strong></td><td><strong>AI ảo giác (Hallucination) dạy sai tiếng Nhật</strong></td><td><span class="badge-blue">HIGH</span></td><td>Scoped Prompting đóng khung bài học; áp dụng triết lý Human-in-the-loop: AI chỉ là gợi ý, Giáo viên là người chấm cuối cùng.</td></tr>
+  <tr><td><strong>RSK-08</strong></td><td><strong>Học viên tua video để farm chứng chỉ</strong></td><td><span class="badge-green">MEDIUM</span></td><td>Video Watch Tracker đo thời lượng xem thực tế (&gt;= 80%) mới đánh dấu hoàn thành bài học.</td></tr>
+</table>
+
+<div class="page-break"></div>
+
+<h1>CHƯƠNG 8: KỊCH BẢN THUYẾT TRÌNH 15 PHÚT & BỘ CÂU HỎI PHẢN BIỆN</h1>
+
+<h2>8.1. Khung Kịch bản 15 Phút Thuyết trình Đỉnh cao</h2>
+<table class="custom-table">
+  <tr><th style="width: 20%;">Thời gian</th><th style="width: 25%;">Phần trình bày</th><th style="width: 55%;">Nội dung trọng tâm & Lời thoại điểm nhấn</th></tr>
+  <tr>
+    <td><strong>Phút 00:00 - 03:00</strong></td>
+    <td><strong>HỒI 1: BỨC TRANH NỖI ĐAU & GIẢI PHÁP (THE WHY)</strong></td>
+    <td>Nêu vấn nạn "Thầy ảo, chứng chỉ JLPT giả, mua khóa học xong bị bỏ rơi". Giới thiệu ManabiHub với 3 trụ cột: <em>eKYC CCCD, Ký quỹ Escrow 14 ngày, Sư phạm AI Human-in-the-loop</em>.</td>
+  </tr>
+  <tr>
+    <td><strong>Phút 03:00 - 08:00</strong></td>
+    <td><strong>HỒI 2: LIVE DEMO HÀNH TRÌNH KHÉP KÍN (THE EXPERIENCE)</strong></td>
+    <td>
+      • <strong>Student:</strong> Mua khóa qua VNPay -&gt; Học Video có đo thời gian thực -&gt; Làm Flashcard SRS -&gt; Nộp bài viết Kanji và hỏi AI Scoped.<br>
+      • <strong>Teacher:</strong> Nhận bài viết -&gt; Đọc gợi ý AI -&gt; Chấm điểm -&gt; Xem ví giải ngân sau 14 ngày -&gt; Rút tiền OTP.<br>
+      • <strong>Admin:</strong> Finance duyệt VietQR -&gt; System Admin xem Audit Log Before/After.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Phút 08:00 - 12:00</strong></td>
+    <td><strong>HỒI 3: CHIỀU SÂU KỸ THUẬT & TÀI CHÍNH (THE CORE ENGINE)</strong></td>
+    <td>Chứng minh tính toàn vẹn của Kiến trúc Modular Monolith Java 21, 77 Migration Flyway, HMAC Fingerprint CCCD, AES-256 GCM Payout và Pessimistic Locking trong Escrow Job.</td>
+  </tr>
+  <tr>
+    <td><strong>Phút 12:00 - 14:00</strong></td>
+    <td><strong>HỒI 4: QUẢN TRỊ AN TOÀN & KHẢ NĂNG MỞ RỘNG (SCALE & SECURITY)</strong></td>
+    <td>Trình bày 14 System Settings thời gian thực, Zero-Trust Admin Filter, CI/CD Pipeline tự động và khả năng mở rộng chi phí tối ưu trên AWS Cloud.</td>
+  </tr>
+  <tr>
+    <td><strong>Phút 14:00 - 15:00</strong></td>
+    <td><strong>HỒI 5: KẾT LUẬN & ĐỊNH HƯỚNG TƯƠNG LAI (THE VISION)</strong></td>
+    <td>Khẳng định ManabiHub là sản phẩm hoàn chỉnh, sẵn sàng thương mại hóa và mang lại giá trị minh bạch cho cộng đồng học tiếng Nhật.</td>
+  </tr>
+</table>
+
+<h2>8.2. Bộ 10 Câu hỏi Phòng thủ Hạ gục Mọi Nghi vấn từ Hội đồng</h2>
+
+<div class="callout-box">
+  <strong>❓ CÂU HỎI 1: Tại sao nhóm không chia Microservices mà lại chọn Modular Monolith?</strong><br>
+  <strong>🎯 Đáp án xuất sắc:</strong> <em>"Dự án của chúng em sở hữu luồng nghiệp vụ tài chính khép kín: Thanh toán VNPay -&gt; Tạo Order -&gt; Kích hoạt Enrollment -&gt; Phân bổ Escrow -&gt; Ghi Sổ cái kép. Luồng này đòi hỏi tính toàn vẹn ACID tuyệt đối trong một Database Transaction duy nhất. Nếu chia Microservices sớm, việc xử lý Distributed Transaction (Saga/2PC) sẽ làm tăng độ phức tạp phi lý và rủi ro bất đồng bộ dòng tiền. Với kiến trúc Modular Monolith Java 21 trên Spring Boot 3 và PostgreSQL tối ưu Index, hệ thống hoàn toàn chịu tải hàng ngàn giao dịch đồng thời với chi phí hạ tầng AWS cực kỳ tiết kiệm, đồng thời các module đã được phân tách rạch ròi, sẵn sàng bóc tách thành Microservices trong tương lai khi lượng truy cập đạt quy mô lớn."</em>
+</div>
+
+<div class="callout-box">
+  <strong>❓ CÂU HỎI 2: Nếu hacker gửi Webhook IPN giả mạo từ máy tính cá nhân thì hệ thống xử lý thế nào?</strong><br>
+  <strong>🎯 Đáp án xuất sắc:</strong> <em>"Backend kiểm tra chữ ký số bí mật HMAC-SHA512 được băm từ dữ liệu giao dịch với <code>VNPAY_HASH_SECRET</code> chỉ có máy chủ VNPay và máy chủ ManabiHub nắm giữ. Hacker không có khóa bí mật này thì chữ ký sẽ sai lệch và request bị từ chối ngay lập tức. Đồng thời, backend đối soát số tiền nhận được với bảng <code>orders</code> và sử dụng ràng buộc <code>UNIQUE(transaction_id)</code> để bảo đảm tính Idempotency, không bao giờ mở khóa học hay cộng tiền lần thứ hai."</em>
+</div>
+
+<div class="callout-box">
+  <strong>❓ CÂU HỎI 3: Nếu 2 yêu cầu rút tiền cùng gửi tới trong 1 mili-giây, ví có bị âm tiền không?</strong><br>
+  <strong>🎯 Đáp án xuất sắc:</strong> <em>"Hệ thống phòng vệ 2 lớp: Thứ nhất, ở tầng ứng dụng, phương thức rút tiền sử dụng Pessimistic Locking (<code>SELECT ... FOR UPDATE</code>) để khóa cứng dòng dữ liệu của Ví trong suốt thời gian giao dịch, bắt request thứ hai phải xếp hàng chờ. Thứ hai, ở tầng cơ sở dữ liệu (Migration <code>V002</code>), cột <code>available_balance</code> có ràng buộc <code>CHECK (available_balance &gt;= 0)</code>, bảo đảm nếu số dư không đủ thì Database sẽ tự động văng lỗi và rollback toàn bộ transaction."</em>
+</div>
+
+<div class="callout-box">
+  <strong>❓ CÂU HỎI 4: Làm sao ngăn chặn AI chấm sai hoặc bịa đặt kiến thức tiếng Nhật (Hallucination)?</strong><br>
+  <strong>🎯 Đáp án xuất sắc:</strong> <em>"Chúng em áp dụng triết lý <strong>Human-in-the-Loop</strong>: AI chỉ đóng vai trò phân tích sơ bộ ngữ pháp, từ vựng và đưa ra gợi ý dạng JSON có cấu trúc. Điểm số và phản hồi chính thức bắt buộc phải do Giáo viên con người đọc duyệt, chỉnh sửa và xác nhận. Ngoài ra, tính năng Chatbot AI được áp dụng cơ chế <strong>Context-Grounded Prompting</strong> — chỉ nạp nội dung của đúng bài học hiện tại và bị cấm tuyệt đối việc giải hộ bài tập."</em>
+</div>
+
+<div class="callout-box">
+  <strong>❓ CÂU HỎI 5: Làm sao ngăn chặn một giáo viên dùng 1 CCCD thật để tạo 10 tài khoản khác nhau?</strong><br>
+  <strong>🎯 Đáp án xuất sắc:</strong> <em>"Hệ thống sử dụng thuật toán HMAC-SHA256 kết hợp số CCCD với khóa bí mật <code>KYC_IDENTITY_SECRET</code> để sinh ra chuỗi Fingerprint duy nhất. Bảng <code>teacher_identity_claims</code> đặt ràng buộc <code>UNIQUE(identity_fingerprint)</code>. Khi tài khoản thứ hai nộp cùng CCCD đó, hệ thống sẽ phát hiện trùng lặp và chặn đứng ngay lập tức ở mức Database."</em>
+</div>
+
+<div class="callout-box">
+  <strong>❓ CÂU HỎI 6: Tại sao hệ thống lại giam tiền của giáo viên 14 ngày (Escrow)? Giáo viên có khó chịu không?</strong><br>
+  <strong>🎯 Đáp án xuất sắc:</strong> <em>"Khoảng thời gian 14 ngày là tiêu chuẩn quốc tế tương tự các sàn Udemy, Coursera để bảo vệ học viên. Trong 14 ngày này, nếu khóa học bị tố cáo vi phạm bản quyền hoặc giáo viên bỏ lớp, nền tảng có thể hoàn trả tiền cho học viên mà không làm âm quỹ. Đối với giáo viên uy tín, sau 14 ngày đầu tiên, dòng tiền của họ sẽ trở thành một dòng chảy liên tục (rolling release) được giải ngân đều đặn hàng ngày qua Scheduled Job tự động."</em>
+</div>
+
+<div class="callout-box">
+  <strong>❓ CÂU HỎI 7: Nếu Admin bị thu hồi quyền nhưng vẫn còn hạn Token JWT thì sao?</strong><br>
+  <strong>🎯 Đáp án xuất sắc:</strong> <em>"ManabiHub xây dựng bộ lọc <code>InternalAdminRoleFilter</code> theo nguyên tắc Zero-Trust. Mỗi khi có request gửi tới API quản trị (<code>/api/v1/admin/**</code>), bộ lọc sẽ truy vấn trực tiếp trạng thái và vai trò thực tế của Admin đó trong Database. Nếu tài khoản bị vô hiệu hóa hoặc hạ quyền, request sẽ bị chặn với mã lỗi <code>403 Forbidden</code> ngay lập tức mà không cần chờ JWT hết hạn."</em>
+</div>
+
+<div class="callout-box">
+  <strong>❓ CÂU HỎI 8: Làm sao chứng minh hệ thống không bị lỗi N+1 Query khi tải danh sách khóa học và bài học?</strong><br>
+  <strong>🎯 Đáp án xuất sắc:</strong> <em>"Trong tầng Repository, chúng em sử dụng <code>JOIN FETCH</code> và <code>@EntityGraph</code> của Spring Data JPA để nạp các quan hệ cha-con (Course -&gt; Sections -&gt; Lesson Blocks) trong 1 câu lệnh SQL duy nhất, kết hợp đánh chỉ mục (Indexes) trên các khóa ngoại (Foreign Keys) trong 77 bản migration Flyway."</em>
+</div>
+
+<div class="callout-box">
+  <strong>❓ CÂU HỎI 9: Thông tin tài khoản ngân hàng của người dùng được bảo vệ như thế nào?</strong><br>
+  <strong>🎯 Đáp án xuất sắc:</strong> <em>"Toàn bộ số tài khoản ngân hàng trong các yêu cầu rút tiền đều được mã hóa đối xứng bằng chuẩn quân sự <strong>AES-256 GCM</strong> với khóa <code>PAYOUT_SECURITY_SECRET</code> trước khi lưu vào đĩa cứng. Ngay cả khi hacker có được bản sao dữ liệu Database, họ cũng không thể giải mã được thông tin tài khoản ngân hàng."</em>
+</div>
+
+<div class="callout-box">
+  <strong>❓ CÂU HỎI 10: Dự án đã có những kiểm thử tự động nào để đảm bảo tính sẵn sàng?</strong><br>
+  <strong>🎯 Đáp án xuất sắc:</strong> <em>"Codebase sở hữu bộ kiểm thử tự động toàn diện: Unit Tests kiểm tra tính toán Escrow, Security Filter Tests kiểm tra phân quyền RBAC, Controller Tests kiểm tra tính hợp lệ của DTO và Mock Contract Tests kiểm tra tích hợp API OpenAI. Toàn bộ các bài test này được tích hợp vào GitHub Actions CI/CD và bắt buộc phải Pass 100% trước khi merge mã nguồn vào nhánh <code>develop</code>."</em>
+</div>
+
+<div class="page-break"></div>
+
+<h1>LỜI KẾT & TẦM NHÌN TƯƠNG LAI</h1>
+<p><strong>ManabiHub</strong> không đơn thuần là một đồ án hoàn thành khóa học. Đây là kết tinh của hàng trăm giờ kỹ nghệ phần mềm chuẩn mực, giải quyết bài toán thực tế bằng tư duy sản phẩm hiện đại:</p>
+<ul>
+  <li><strong>Tính Minh bạch:</strong> Đặt đạo đức sư phạm và niềm tin của người học lên hàng đầu với eKYC và Verified Reviews.</li>
+  <li><strong>Tính Bền vững Tài chính:</strong> Bảo vệ dòng tiền của nền tảng và quyền lợi của giáo viên bằng Escrow Ledger và VietQR Payout.</li>
+  <li><strong>Tính Kỷ luật Kỹ thuật:</strong> 77 bản migration cơ sở dữ liệu có kiểm soát, Clean Architecture, CI/CD tự động và bảo mật đa tầng.</li>
+</ul>
+<p style="text-align: center; margin-top: 24pt; font-weight: bold; color: #1e3a8a; font-size: 13.0pt;">
+  CHÚC BẠN TỰ TIN BẢO VỆ THÀNH CÔNG VÀ ĐẠT ĐIỂM SỐ XUẤT SẮC NHẤT TRƯỚC HỘI ĐỒNG!
+</p>
+
+</div>
+</body>
+</html>

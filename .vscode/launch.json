@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ManabiHub Backend Debug",
+            "request": "launch",
+            "mainClass": "com.manabihub.ManabiHubApplication",
+            "projectName": "manabihub",
+            "cwd": "${workspaceFolder}/backend",
+            "env": {
+                "SPRING_PROFILES_ACTIVE": "local"
+            }
+        }
+    ]
+}

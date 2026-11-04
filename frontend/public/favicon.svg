@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ManabiHub">
+  <rect width="64" height="64" rx="14" fill="#FFF7F5"/>
+  <circle cx="32" cy="29" r="21" fill="#FFE4E6"/>
+  <path fill="#C41E3A" d="M8 11h48l-2.5 7h-43L8 11Zm5 10h38v6H13v-6Zm7 8h7v22h-7V29Zm17 0h7v22h-7V29ZM16 49h15v5H16v-5Zm17 0h15v5H33v-5Z"/>
+  <path fill="#991B1B" d="M17 26h30v5H17v-5Z"/>
+</svg>

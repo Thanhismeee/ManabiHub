@@ -1,0 +1,40 @@
+manabihub:
+  security:
+    mock-jwt: true
+  kyc:
+    identity-secret: test-only-identity-secret-key-32chars-minimum-length
+    identity-verification-mode: server
+  payout:
+    security-secret: test-only-payout-secret-key-32chars-minimum-length
+  admin-auth:
+    cookie-secure: false
+    cookie-same-site: Lax
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+  flyway:
+    enabled: false
+  mail:
+    host: localhost
+    port: 25
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: test-google-client-id
+            client-secret: test-google-client-secret
+            scope: profile, email
+        provider:
+          google:
+            issuer-uri: https://accounts.google.com

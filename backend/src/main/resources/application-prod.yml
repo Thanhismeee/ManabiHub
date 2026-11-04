@@ -1,0 +1,112 @@
+server:
+  port: ${PORT:5000}
+  forward-headers-strategy: framework
+  shutdown: graceful
+
+spring:
+  lifecycle:
+    timeout-per-shutdown-phase: 20s
+  datasource:
+    # Keep real connection values in Elastic Beanstalk environment properties.
+    # Defaults only exist so local prod smoke tests fail predictably.
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://${RDS_HOSTNAME:${DB_HOST:127.0.0.1}}:${RDS_PORT:${DB_PORT:5432}}/${RDS_DB_NAME:${DB_NAME:manabihub}}}
+    username: ${RDS_USERNAME:${DB_USERNAME:manabihub}}
+    password: ${RDS_PASSWORD:${DB_PASSWORD:}}
+    driver-class-name: ${SPRING_DATASOURCE_DRIVER_CLASS_NAME:org.postgresql.Driver}
+    hikari:
+      connection-timeout: 10000
+      validation-timeout: 3000
+      maximum-pool-size: ${DB_MAX_POOL_SIZE:10}
+      minimum-idle: ${DB_MIN_IDLE:2}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+  flyway:
+    enabled: true
+    validate-on-migrate: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${GOOGLE_CLIENT_ID}
+            client-secret: ${GOOGLE_CLIENT_SECRET}
+            scope: profile, email
+        provider:
+          google:
+            issuer-uri: https://accounts.google.com
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME:}
+    password: ${MAIL_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: never
+  health:
+    mail:
+      enabled: false
+
+manabihub:
+  cohort:
+    audio-storage-root: ${MANABIHUB_COHORT_AUDIO_STORAGE_ROOT:/var/app/manabihub-storage/cohort-audio}
+  firebase-phone-auth:
+    enabled: ${FIREBASE_PHONE_AUTH_ENABLED:false}
+    project-id: ${FIREBASE_PROJECT_ID:}
+    service-account-json-base64: ${FIREBASE_SERVICE_ACCOUNT_JSON_BASE64:}
+  kyc:
+# Safe default: synthetic registry. Sandbox may explicitly select direct-sdk;
+# it trusts browser evidence and unlocks sandbox withdrawals. Real production
+# must select server.
+    identity-verification-mode: ${KYC_IDENTITY_VERIFICATION_MODE:direct-sdk-mock}
+  phone-verification:
+    # Production must explicitly configure a real provider; OTPs are never
+    # logged in the production profile.
+    sms-mode: ${PHONE_VERIFICATION_SMS_MODE:disabled}
+    sms-webhook-url: ${PHONE_VERIFICATION_SMS_WEBHOOK_URL:}
+    sms-api-key: ${PHONE_VERIFICATION_SMS_API_KEY:}
+    sms-timeout-seconds: ${PHONE_VERIFICATION_SMS_TIMEOUT_SECONDS:5}
+    esms:
+      api-key: ${PHONE_VERIFICATION_ESMS_API_KEY:}
+      secret-key: ${PHONE_VERIFICATION_ESMS_SECRET_KEY:}
+      brandname: ${PHONE_VERIFICATION_ESMS_BRANDNAME:}
+      sandbox: ${PHONE_VERIFICATION_ESMS_SANDBOX:true}
+  payout:
+    withdrawal-otp-mode: ${WITHDRAWAL_OTP_MODE:email}
+  payment:
+    vnpay:
+      # Required in production. Startup also verifies HTTPS, the frontend
+      # origin, and the exact /checkout/return route.
+      return-url: ${VNPAY_RETURN_URL}
+  bootstrap:
+    admin:
+      email: ${ADMIN_BOOTSTRAP_EMAIL:}
+      password: ${ADMIN_BOOTSTRAP_PASSWORD:}
+      full-name: ${ADMIN_BOOTSTRAP_FULL_NAME:ManabiHub System Administrator}
+  security:
+    mock-jwt: false
+  admin-auth:
+    cookie-secure: true
+    cookie-same-site: None
+
+jwt:
+  secret: ${JWT_SECRET}
+
+app:
+  frontend:
+    base-url: ${FRONTEND_BASE_URL}
+    login-url: ${FRONTEND_BASE_URL}/login
+    onboarding-url: ${FRONTEND_BASE_URL}/onboarding/student
+    success-url: ${FRONTEND_BASE_URL}/auth/callback

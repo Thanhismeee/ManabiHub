@@ -1,0 +1,26 @@
+#!/bin/sh
+
+blocked_paths=$(git diff --cached --name-only | grep -E '^(backend/target/|frontend/dist/|frontend/node_modules/|tmp/)' || true)
+
+if [ -n "$blocked_paths" ]; then
+  echo "Blocked generated/local files from commit:"
+  echo "$blocked_paths"
+  echo "Remove them from staging, then commit again."
+  exit 1
+fi
+
+blocked_configs=$(
+  git diff --cached --name-only \
+    | grep -E '(^|/)(application-secrets\.yml|\.env(\..*)?)$' \
+    | grep -v -E '(^|/)\.env.*\.example$' \
+    || true
+)
+
+if [ -n "$blocked_configs" ]; then
+  echo "Blocked local config or secret files from commit:"
+  echo "$blocked_configs"
+  echo "Use .env.example or application-secrets.example.yml for templates."
+  exit 1
+fi
+
+exit 0

@@ -1,0 +1,102 @@
+spring:
+  application:
+    name: manabihub-backend
+  servlet:
+    multipart:
+      max-file-size: 16MB
+      max-request-size: 28MB
+  profiles:
+    default: local
+  jpa:
+    open-in-view: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: alpha
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: always
+
+manabihub:
+  cohort:
+    ffmpeg-executable: ${MANABIHUB_COHORT_FFMPEG_EXECUTABLE:}
+  firebase-phone-auth:
+    enabled: ${FIREBASE_PHONE_AUTH_ENABLED:false}
+    project-id: ${FIREBASE_PROJECT_ID:}
+    # Server secret; never expose this value through a VITE_* frontend variable.
+    service-account-json-base64: ${FIREBASE_SERVICE_ACCOUNT_JSON_BASE64:}
+  phone-verification:
+    sms-mode: ${PHONE_VERIFICATION_SMS_MODE:console}
+    sms-webhook-url: ${PHONE_VERIFICATION_SMS_WEBHOOK_URL:}
+    sms-api-key: ${PHONE_VERIFICATION_SMS_API_KEY:}
+    sms-timeout-seconds: ${PHONE_VERIFICATION_SMS_TIMEOUT_SECONDS:5}
+    esms:
+      api-key: ${PHONE_VERIFICATION_ESMS_API_KEY:}
+      secret-key: ${PHONE_VERIFICATION_ESMS_SECRET_KEY:}
+      brandname: ${PHONE_VERIFICATION_ESMS_BRANDNAME:}
+      sandbox: ${PHONE_VERIFICATION_ESMS_SANDBOX:true}
+  kyc:
+    identity-secret: ${KYC_IDENTITY_SECRET:}
+    # direct-sdk-mock cross-checks synthetic fixtures. A sandbox may explicitly
+    # select direct-sdk to trust browser results and unlock sandbox withdrawals.
+    # A production tenant must select SERVER.
+    identity-verification-mode: ${KYC_IDENTITY_VERIFICATION_MODE:direct-sdk-mock}
+  payout:
+    security-secret: ${PAYOUT_SECURITY_SECRET:}
+    withdrawal-otp-mode: ${WITHDRAWAL_OTP_MODE:email}
+  ai:
+    chat:
+      base-url: ${AI_CHAT_PROVIDER_BASE_URL:}
+      endpoint: ${AI_CHAT_PROVIDER_ENDPOINT:/v1/chat/completions}
+      api-key: ${AI_CHAT_PROVIDER_API_KEY:}
+      model: ${AI_CHAT_PROVIDER_MODEL:gpt-4o-mini}
+      rate-limit-per-minute: ${AI_CHAT_RATE_LIMIT_PER_MINUTE:10}
+      daily-limit: ${AI_CHAT_DAILY_LIMIT:50}
+      timeout-seconds: ${AI_CHAT_TIMEOUT_SECONDS:20}
+  # UC-08 course purchase — VNPay sandbox. Secret values (tmn-code, hash-secret) are
+  # supplied via application-secrets.yml / env vars and must never be committed.
+  payment:
+    vnpay:
+      tmn-code: ${VNPAY_TMN_CODE:}
+      hash-secret: ${VNPAY_HASH_SECRET:}
+      pay-url: ${VNPAY_PAY_URL:https://sandbox.vnpayment.vn/paymentv2/vpcpay.html}
+      api-url: ${VNPAY_API_URL:https://sandbox.vnpayment.vn/merchant_webapi/api/transaction}
+      return-url: ${VNPAY_RETURN_URL:http://localhost:5173/checkout/return}
+      version: ${VNPAY_VERSION:2.1.0}
+      command: ${VNPAY_COMMAND:pay}
+      order-type: ${VNPAY_ORDER_TYPE:other}
+      locale: ${VNPAY_LOCALE:vn}
+      currency: ${VNPAY_CURRENCY:VND}
+      dev-simulator-enabled: ${VNPAY_DEV_SIMULATOR_ENABLED:false}
+  admin-invitation:
+    ttl-hours: ${ADMIN_INVITATION_TTL_HOURS:24}
+  admin-auth:
+    access-token-minutes: ${ADMIN_ACCESS_TOKEN_MINUTES:15}
+    session-hours: ${ADMIN_SESSION_HOURS:12}
+    remember-session-days: ${ADMIN_REMEMBER_SESSION_DAYS:30}
+    remember-idle-days: ${ADMIN_REMEMBER_IDLE_DAYS:7}
+    password-reset-minutes: ${ADMIN_PASSWORD_RESET_MINUTES:30}
+    password-reset-cooldown-seconds: ${ADMIN_PASSWORD_RESET_COOLDOWN_SECONDS:60}
+    cookie-secure: ${ADMIN_COOKIE_SECURE:false}
+    cookie-same-site: ${ADMIN_COOKIE_SAME_SITE:Lax}
+  violation:
+    spam-window-minutes: 60
+
+app:
+  frontend:
+    base-url: ${FRONTEND_BASE_URL:http://localhost:5173}

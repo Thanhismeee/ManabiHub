@@ -1,0 +1,11 @@
+package com.manabihub.wallet.enums;
+
+public enum WalletLedgerType {
+    REVENUE_CREDITED,
+    REVENUE_CLEARED,
+    WITHDRAWAL_RESERVATION,
+    WITHDRAWAL_COMPLETED,
+    WITHDRAWAL_REJECTED,
+    WITHDRAWAL_CANCELLED,
+    ADMIN_ADJUSTMENT
+}

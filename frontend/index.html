@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="theme-color" content="#C41E3A" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ManabiHub</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    // A tab can outlive an Amplify deployment while its hashed chunks do not.
+    // Recover once with the newest index instead of exposing a raw router error.
+    (() => {
+      const marker = 'manabihub:chunk-recovery-at';
+      const chunkError = /(Failed to fetch dynamically imported module|Importing a module script failed|Loading chunk .* failed|ChunkLoadError)/i;
+      const recover = (event, reason) => {
+        const message = String(reason?.message || reason || '');
+        if (!chunkError.test(message)) return;
+        const now = Date.now();
+        const lastAttempt = Number(sessionStorage.getItem(marker) || 0);
+        if (now - lastAttempt < 30000) return;
+        event.preventDefault();
+        sessionStorage.setItem(marker, String(now));
+        window.location.reload();
+      };
+      window.addEventListener('vite:preloadError', (event) => recover(event, event.payload));
+      window.addEventListener('unhandledrejection', (event) => recover(event, event.reason));
+    })();
+  </script>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
